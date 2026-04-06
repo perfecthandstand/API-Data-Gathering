@@ -2,7 +2,7 @@ import requests
 import json
 
 # 抓取資料 (以 JSONPlaceholder 為例)
-url = "message":"https:\/\/images.dog.ceo\/breeds\/pomeranian\/n02112018_5089.jpg","status":"success"
+url = {"message":"https:\/\/images.dog.ceo\/breeds\/pomeranian\/n02112018_5089.jpg","status":"success"}
 
 response = requests.get(url)
 
